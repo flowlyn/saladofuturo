@@ -13,7 +13,7 @@
 
 <br />
 
-# 🌑 ECLIPSE LUNAR V.20
+# 🌑 SALA DO FUTURO SCRIPT - ECLIPSE LUNAR
 
 > [!IMPORTANT]
 > **NOTA:** Se você está visualizando este projeto em **2026**, você faz parte da nova era de automação estudantil. O Eclipse Lunar é a sua ferramenta definitiva.
