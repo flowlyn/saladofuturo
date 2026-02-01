@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Scripts Sala do Futuro 2026 | Hack CMSP & Tarefas SP - Crimson Hub</title>
+    
+    <meta name="google-site-verification" content="9msgNPPTgYHed6KpeCB3hE4byxzvMLgaID3K8Z24rpY" />
+
+    <meta name="description" content="O melhor e mais completo hub de scripts para Sala do Futuro e CMSP em 2026. Automação para Tarefas SP, Redação, Khan Academy, Alura, Leia SP e muito mais. Seguro e atualizado.">
+
+    <meta name="keywords" content="script sala do futuro, hack sala do futuro, sala do futuro aluno, scripts sala do futuro 2026, hack tarefas sp, script tarefas sp, respostas tarefas sp, cmsp hacks, script cmsp, script khan academy, bot khan academy, respostas khan academy, script alura, hack alura, script redação sp, respostas redação sp, hack prepara sp, respostas prepara sp, script leia sp, respostas leia sp, script speak, script expansão noturno, bot educação profissional, respostas apostila, crimson hub, eclipse lunar, automação escolar, hack educação sp">
+    
+    <meta name="author" content="Crimson Hub">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Crimson Hub - Scripts Sala do Futuro">
+    <meta property="og:description" content="Scripts atualizados para CMSP, Tarefas SP, Khan Academy e Alura.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images-ext-1.discordapp.net/external/w6IWaNpr0-4luQM2uzIh9whgSEu8jDAefUX5tzvFJ1I/%3Fsize%3D2048/https/cdn.discordapp.com/splashes/1380685654102507663/a2c76216211ac74c7e6f433f30a654a2.png?format=webp&quality=lossless&width=1552&height=873"> <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #9d00ff;
+            --primary-glow: #bf55ff;
+            --secondary: #00d9ff;
+            --dark-bg: #030008;
+            --card-bg: rgba(20, 0, 40, 0.4);
+            --border: rgba(157, 0, 255, 0.3);
+            --text-main: #ffffff;
+            --text-muted: #a0a0a0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(157, 0, 255, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(0, 217, 255, 0.05) 0%, transparent 50%);
+            color: var(--text-main);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #000;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 4px;
+        }
+
+        .background-fx {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMTUwLCAwLCAyNTUsIDAuMSkiLz48L3N2Zz4=');
+            animation: bgScroll 40s linear infinite;
+        }
+
+        @keyframes bgScroll {
+            from { background-position: 0 0; }
+            to { background-position: 0 1000px; }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 5%;
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(3, 0, 8, 0.8);
+            box-shadow: 0 0 20px rgba(157, 0, 255, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 15px var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo i {
+            color: var(--primary-glow);
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .clock {
+            font-family: monospace;
+            color: var(--secondary);
+            font-size: 0.9rem;
+            border: 1px solid rgba(0, 217, 255, 0.3);
+            padding: 5px 10px;
+            border-radius: 5px;
+            background: rgba(0, 217, 255, 0.05);
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: 0.3s;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: #fff;
+            text-shadow: 0 0 10px #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 6rem 1rem 2rem 1rem;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            background: linear-gradient(180deg, #fff, #b0b0b0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .typing-container {
+            font-size: 1.2rem;
+            color: var(--primary-glow);
+            height: 30px;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            text-shadow: 0 0 10px var(--primary);
+        }
+
+        .controls {
+            max-width: 1200px;
+            margin: 0 auto 30px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .search-box {
+            position: relative;
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            padding: 12px 15px 12px 45px;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary-glow);
+            box-shadow: 0 0 15px rgba(157, 0, 255, 0.2);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+        }
+
+        .filter-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: 600;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+            box-shadow: 0 0 15px rgba(157, 0, 255, 0.4);
+        }
+
+        .grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px 80px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 25px;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            backdrop-filter: blur(10px);
+            height: 200px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary-glow);
+            box-shadow: 0 15px 40px rgba(157, 0, 255, 0.15);
+        }
+
+        .card:hover .icon-bg {
+            transform: scale(1.2) rotate(10deg);
+            opacity: 0.2;
+        }
+
+        .icon-bg {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 8rem;
+            color: var(--primary);
+            opacity: 0.05;
+            transition: 0.5s;
+            pointer-events: none;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .card-title {
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .card-desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .status {
+            align-self: flex-start;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: auto;
+        }
+
+        .status.online {
+            background: rgba(0, 255, 136, 0.1);
+            color: #00ff88;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.1);
+        }
+
+        .status.dev {
+            background: rgba(255, 170, 0, 0.1);
+            color: #ffaa00;
+            border: 1px solid rgba(255, 170, 0, 0.3);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(15px);
+            animation: fadeIn 0.3s;
+        }
+
+        .modal-content {
+            background: #0a0014;
+            width: 90%;
+            max-width: 500px;
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid var(--primary);
+            box-shadow: 0 0 60px rgba(157, 0, 255, 0.3);
+            text-align: center;
+            position: relative;
+        }
+
+        .modal-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: var(--primary-glow);
+            animation: float 3s infinite ease-in-out;
+        }
+
+        .modal h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .modal p {
+            color: #bbb;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .modal-btn {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .btn-accept {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 5px 20px rgba(157, 0, 255, 0.4);
+            margin-bottom: 10px;
+        }
+        .btn-accept:hover {
+            background: var(--primary-glow);
+            transform: scale(1.02);
+        }
+
+        .btn-discord {
+            background: #5865F2;
+            color: white;
+        }
+        .btn-discord:hover {
+            background: #4752c4;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 1px solid #444;
+            color: #888;
+        }
+        .btn-secondary:hover {
+            color: #fff;
+            border-color: #fff;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+        .terms-text {
+            text-align: left;
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 10px;
+            height: 150px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            font-size: 0.85rem;
+            color: #aaa;
+            border: 1px solid #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #222;
+            background: #020005;
+            color: #666;
+        }
+
+        .hidden { display: none !important; }
+
+    </style>
+</head>
+<body>
+
+    <div class="background-fx"></div>
+
+    <nav>
+        <div class="logo">
+            <i class="fas fa-cube"></i> Crimson Hub
+        </div>
+        <div class="nav-right">
+            <div id="clock" class="clock">00:00:00</div>
+            <div class="nav-links">
+                <a href="https://discord.com/invite/zRXgHF9hrQ" target="_blank">Discord</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>SALA DO FUTURO</h1>
+        <div class="typing-container" id="typewriter"></div>
+        <p style="max-width: 600px; margin: 0 auto; color: #888;">
+            A plataforma automatizada mais completa para estudantes. Otimize seu tempo com nossas ferramentas inteligentes.
+        </p>
+    </div>
+
+    <div class="controls">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Pesquisar sistema (ex: Khan, Redação)...">
+        </div>
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterCards('all')">Todos</button>
+            <button class="filter-btn" onclick="filterCards('auto')">Automação</button>
+            <button class="filter-btn" onclick="filterCards('curso')">Cursos</button>
+        </div>
+    </div>
+
+    <div class="grid" id="cardGrid">
+        
+        <a href="https://crimsonzerohub.xyz/tarefas" class="card" data-category="auto" target="_blank">
+            <i class="fas fa-robot icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Tarefas SP</div>
+                    <div class="card-desc">Resolução automática CMSP</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/redacao" class="card" data-category="auto" target="_blank">
+            <i class="fas fa-pen-nib icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Redação SP</div>
+                    <div class="card-desc">Gerador e corretor IA</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/leiasp" class="card" data-category="auto" target="_blank">
+            <i class="fas fa-book-open icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Leia SP</div>
+                    <div class="card-desc">Respostas plataforma Leia</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/khan" class="card" data-category="curso" target="_blank">
+            <i class="fas fa-graduation-cap icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Khan Academy</div>
+                    <div class="card-desc">Scripts para cursos Khan</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="#" class="card" data-category="curso" style="opacity: 0.6; cursor: not-allowed;">
+            <i class="fas fa-microphone icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">SPEAK</div>
+                    <div class="card-desc">Inglês automático (Dev)</div>
+                </div>
+            </div>
+            <div class="status dev"><i class="fas fa-code" style="font-size:6px; vertical-align:middle;"></i> Em Breve</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/preparasp" class="card" data-category="curso" target="_blank">
+            <i class="fas fa-laptop-code icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Prepara SP</div>
+                    <div class="card-desc">Atividades Prepara Hack</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/expansao" class="card" data-category="auto" target="_blank">
+            <i class="fas fa-moon icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Expansão Noturno</div>
+                    <div class="card-desc">Scripts Programa Noturno</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/edprofissinal" class="card" data-category="curso" target="_blank">
+            <i class="fas fa-briefcase icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Ed. Profissional</div>
+                    <div class="card-desc">Técnico Automático</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/redacaopr" class="card" data-category="auto" target="_blank">
+            <i class="fas fa-feather icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Redação PR</div>
+                    <div class="card-desc">Script Paraná</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+        <a href="https://crimsonzerohub.xyz/alura" class="card" data-category="curso" target="_blank">
+            <i class="fas fa-code-branch icon-bg"></i>
+            <div class="card-header">
+                <div>
+                    <div class="card-title">Alura</div>
+                    <div class="card-desc">Conclusão de cursos</div>
+                </div>
+            </div>
+            <div class="status online"><i class="fas fa-circle" style="font-size:6px; vertical-align:middle;"></i> Online</div>
+        </a>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Crimson Hub. Security & Automation.</p>
+    </footer>
+
+    <div id="termsModal" class="modal" style="display: flex;">
+        <div class="modal-content">
+            <i class="fas fa-file-contract modal-icon"></i>
+            <h2>Termos de Uso</h2>
+            <p>Para acessar o <strong>Crimson Hub</strong>, você deve concordar com nossos termos.</p>
+            <div class="terms-text">
+                1. O uso destas ferramentas é de inteira responsabilidade do usuário.<br>
+                2. Não nos responsabilizamos por suspensões ou banimentos em plataformas escolares.<br>
+                3. Este software é fornecido "como está", sem garantias.<br>
+                4. O compartilhamento indevido pode revogar seu acesso.<br>
+                5. Ao clicar em aceitar, você confirma que leu e entendeu os riscos.
+            </div>
+            <button class="modal-btn btn-accept" onclick="acceptTerms()">Li e Concordo</button>
+        </div>
+    </div>
+
+    <div id="discordModal" class="modal">
+        <div class="modal-content">
+            <i class="fab fa-discord modal-icon" style="color: #5865F2;"></i>
+            <h2>Comunidade VIP</h2>
+            <p>Scripts atualizados diariamente e suporte exclusivo apenas no Discord.</p>
+            <button class="modal-btn btn-discord" onclick="joinDiscord()">ENTRAR AGORA</button>
+            <button class="modal-btn btn-secondary" onclick="closeDiscord()" style="margin-top: 10px;">Lembrar depois</button>
+        </div>
+    </div>
+
+    <script>
+        const termsModal = document.getElementById('termsModal');
+        const discordModal = document.getElementById('discordModal');
+        
+        function acceptTerms() {
+            localStorage.setItem('termsAccepted', 'true');
+            termsModal.style.display = 'none';
+            setTimeout(openDiscord, 2000); 
+        }
+
+        if(localStorage.getItem('termsAccepted') === 'true') {
+            termsModal.style.display = 'none';
+            setTimeout(openDiscord, 2000);
+        }
+
+        function openDiscord() {
+            discordModal.style.display = 'flex';
+        }
+
+        function closeDiscord() {
+            discordModal.style.display = 'none';
+        }
+
+        function joinDiscord() {
+            window.open('https://discord.com/invite/zRXgHF9hrQ', '_blank');
+            closeDiscord();
+        }
+
+        setInterval(() => {
+            if(discordModal.style.display !== 'flex' && termsModal.style.display === 'none') {
+                openDiscord();
+            }
+        }, 5000);
+
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toLocaleTimeString();
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        const words = ["AUTOMAÇÃO", "SCRIPTS ATUALIZADOS", "HACKS CMSP", "KHAN ACADEMY", "INTELIGÊNCIA"];
+        let i = 0;
+        let timer;
+
+        function typeWriter() {
+            const heading = document.getElementById('typewriter');
+            heading.textContent = words[i];
+            i = (i + 1) % words.length;
+        }
+        setInterval(typeWriter, 2000);
+        typeWriter();
+
+        const searchInput = document.getElementById('searchInput');
+        const cards = document.querySelectorAll('.card');
+
+        searchInput.addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase();
+            cards.forEach(card => {
+                const title = card.querySelector('.card-title').textContent.toLowerCase();
+                if(title.includes(val)) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        });
+
+        function filterCards(category) {
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            cards.forEach(card => {
+                if(category === 'all' || card.dataset.category === category) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
