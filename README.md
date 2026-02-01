@@ -57,10 +57,7 @@ Nossa missão é combater a carga excessiva de tarefas repetitivas através de a
 
 ## 🛡️ Aviso Legal (Disclaimer)
 
-```diff
+````diff
 - [ ALERTA ]
 + O uso desta ferramenta é de inteira responsabilidade do usuário.
 + O Eclipse Lunar não se responsabiliza por eventuais sanções administrativas.
-<br />
-
-<div align="center"> <img src="https://lh3.googleusercontent.com/gg-dl/AOI_d_8jAQ5dW6ugss7Ev4Osm19xrvnAoS-J5LwV96g_VvmzL8lfxpT7-sJArn0JiPoodxUcwwBrDEorIZD5tAJn_aKCOHhB29UDhMGVAcBonU1RLWydFnxASZ4OVEqgryxjkmJ-nNWk-Z5iPebRtM4HDltC4MXzyl-X1aXFihA0oyOddPikCg=s1024-rj" width="80px" style="border-radius: 50%;"> <br /> <sub>Desenvolvido com 💜 pela equipe Eclipse Lunar</sub> </div>
